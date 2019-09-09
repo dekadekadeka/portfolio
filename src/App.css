@@ -1,33 +1,96 @@
-.App {
+body{
+  background-color: rgb(39, 39, 39);
+}
+
+h1, h6{
+  font-family: voces, sans-serif;
+}
+/* hero */
+.hero{
+  background-image: url("./images/portfolio-main.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.hero h1{
+  color: white;
+  text-align: end;
+  margin-right: 1.5vw;
+}
+.hero svg{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+svg .draw{
+  stroke: #fff;
+  stroke-width: 25px;
+  fill: transparent;
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: animate 5s linear forwards;
+}
+.hero span{
+  background-image: linear-gradient(to right, #0092D0, #FDBE43, #FF7500);
+}
+
+/* .hero span:nth-child(1){
+  animation-delay: 5s;
+} */
+
+@keyframes animate{
+  from{
+    stroke-dashoffset: 5000;
+  }
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+/* @keyframes glow{
+
+} */
+
+/* end hero */
+/* skills */
+.skills{
+  padding: 5rem 0;
+  color: white;
+  background-image: linear-gradient(45deg, rgb(0, 140, 204, 0.6), rgb(255,179,0, 0.6), rgb(255,117, 0, 0.6));
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.skills h6{
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.skills-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.skill span {
+  display: inline-block;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (min-width: 992px) {
+  .skills-center {
+    width: 95vw;
+    max-width: 1170px;
   }
 }
+/* end skills */
