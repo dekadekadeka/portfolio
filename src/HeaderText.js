@@ -6,7 +6,7 @@ const HeaderText = () => {
 		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="2549.54" height="870.44"
 	viewBox="0 0 2549.54 870.44" overflow="visible" enableBackground="new 0 0 2549.54 870.44">
 		<defs>  
-        <linearGradient id="logo-gradient" x1="100%" y1="100%"> 
+        <linearGradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%"> 
 			<stop offset="0%" stopColor="#0092D0">
             <animate attributeName="stop-color" values="#0092D0;#FDBE43;#FF7500;#FF7500;#fff;#FF7500;#FF7500;#FDBE43;#0092D0" dur="14s" repeatCount="indefinite" />
         </stop>

@@ -3,7 +3,7 @@ body{
 }
 
 h1, h6{
-  font-family: voces, sans-serif;
+  font-family: podkova, sans-serif;
 }
 /* hero */
 .hero{
@@ -37,10 +37,6 @@ svg .draw{
   animation: animate 5s linear forwards;
 }
 
-/* .hero span:nth-child(1){
-  animation-delay: 5s;
-} */
-
 @keyframes animate{
   from{
     stroke-dashoffset: 5000;
@@ -49,9 +45,6 @@ svg .draw{
     stroke-dashoffset: 0;
   }
 }
-/* @keyframes glow{
-
-} */
 
 /* end hero */
 /* skills */
