@@ -28,7 +28,6 @@ h1, h6{
 }
 
 svg .draw{
-  stroke: #fff;
   stroke-width: 25px;
   fill: transparent;
   stroke-dasharray: 5000;
@@ -36,9 +35,6 @@ svg .draw{
   stroke-linecap: round;
   stroke-linejoin: round;
   animation: animate 5s linear forwards;
-}
-.hero span{
-  background-image: linear-gradient(to right, #0092D0, #FDBE43, #FF7500);
 }
 
 /* .hero span:nth-child(1){
