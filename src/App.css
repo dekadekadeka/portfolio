@@ -2,7 +2,20 @@ body{
   background-color: rgb(39, 39, 39);
 }
 
-h1, h6{
+h1{
+  font-family: niconne, fantasy;
+  font-size: 5rem;
+  margin: 1rem 1rem 1.5rem 1rem;
+}
+
+h2{
+  font-family: podkova, sans-serif;
+  font-size: 3rem;
+  margin: 1rem;
+  text-shadow: 3px 3px 5px #000;
+}
+
+h6{
   font-family: podkova, sans-serif;
 }
 /* hero */
@@ -13,7 +26,7 @@ h1, h6{
   background-size: cover;
 }
 
-.hero h1{
+.hero h2{
   color: white;
   text-align: end;
   margin-right: 1.5vw;
@@ -45,11 +58,52 @@ svg .draw{
     stroke-dashoffset: 0;
   }
 }
-
 /* end hero */
+/* projects */
+.projects{
+  padding: 2rem 0;
+  color: white;
+  text-align: center;
+}
+
+.projects h6{
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.projects-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
+}
+
+.projects-center img {
+  width: 100%;
+  height: 12rem;
+  display: block;
+  transition: var(--mainTransition);
+}
+
+.project span {
+  display: inline-block;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 992px) {
+  .projects-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+}
+/* end projects */
 /* skills */
 .skills{
-  padding: 5rem 0;
+  padding: 2rem 0;
   color: white;
   background-image: linear-gradient(45deg, rgb(0, 140, 204, 0.6), rgb(255,179,0, 0.6), rgb(255,117, 0, 0.6));
   text-align: center;
@@ -83,3 +137,63 @@ svg .draw{
   }
 }
 /* end skills */
+/* about */
+.about{
+  padding: 2rem 0;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.about img{
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+.about h1{
+  text-align: center;
+}
+
+.about p{
+  margin-top: 0;
+}
+
+.about-me-info {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 2rem auto;
+}
+.pic,
+.info {
+  word-wrap: break-word;
+  font-family: podkova, sans-serif;
+}
+
+@media screen and (min-width: 992px) {
+  .about-me-info{
+    width: 95vw;
+    max-width: 1170px;
+  }
+  .about-me-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2rem;
+  }
+  .info {
+    padding-left: 3rem;
+  }
+}
+.social{
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.social a{
+  color: white;
+}
+/* end about */

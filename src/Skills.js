@@ -26,6 +26,7 @@ export default class Skills extends Component {
     render() {
         return (
             <section className="skills">
+                <h1>Skills</h1>
                 <div className="skills-center">
                     {this.state.skills.map((skill, index) => {
                         return <article key={index} className="skill">

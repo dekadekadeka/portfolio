@@ -7,13 +7,13 @@ const HeaderText = () => {
 	viewBox="0 0 2549.54 870.44" overflow="visible" enableBackground="new 0 0 2549.54 870.44">
 		<defs>  
         <linearGradient id="logo-gradient" x1="50%" y1="0%" x2="50%" y2="100%"> 
-			<stop offset="0%" stopColor="#0092D0">
+		<stop offset="0%" stopColor="#0092D0">
             <animate attributeName="stop-color" values="#0092D0;#FDBE43;#FF7500;#FF7500;#fff;#FF7500;#FF7500;#FDBE43;#0092D0" dur="14s" repeatCount="indefinite" />
         </stop>
         <stop offset="100%" stopColor="#0092D0">
             <animate attributeName="stop-color" values="#0092D0;#FDBE43;#FF7500;#FF7500;#fff;#FF7500;#FF7500;#FDBE43;#0092D0" dur="14s" repeatCount="indefinite" />
             <animate attributeName="offset" values=".95;.80;.60;.40;.20;0;.20;.40;.60;.80;.95" dur="14s" repeatCount="indefinite" />
-        </stop>
+		</stop>
         </linearGradient> 
     </defs>
 <g>
