@@ -8,9 +8,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <Hero>
-
-      </Hero>
+      <Hero/>
       <Projects/>
       <Skills/>
       <About/>
