@@ -34,14 +34,10 @@ const About = () => {
                         The greatest thing I've ever done was pursue web development.
                     </p>
                 <div className="social">
-                    <span>
-                        <a href="https://www.linkedin.com/in/renee-deka-ambia-96731773/"><FaLinkedin/></a>
-                        <a href="https://github.com/dekadekadeka/"><FaGithub/></a>
-                    </span>
-                    <span>
+                    <a href="https://github.com/dekadekadeka/"><FaGithub/></a>
+                    <a href="https://www.linkedin.com/in/renee-deka-ambia-96731773/"><FaLinkedin/></a>
                     <a href="https://medium.com/@dekadekadeka"><FaMediumM/></a>
                     <a href="https://twitter.com/dekadekadeka/"><FaTwitter/></a>
-                    </span>
                 </div>
                 </article>
             </div>
