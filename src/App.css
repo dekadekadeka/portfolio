@@ -41,7 +41,7 @@ h6{
 }
 
 svg .draw{
-  stroke-width: 25px;
+  stroke-width: 20px;
   fill: transparent;
   stroke-dasharray: 5000;
   stroke-dashoffset: 5000;
