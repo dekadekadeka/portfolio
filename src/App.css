@@ -3,20 +3,20 @@ body{
 }
 
 h1{
-  font-family: niconne, fantasy;
+  font-family: 'Splash', cursive;
   font-size: 5rem;
   margin: 1rem 1rem 1.5rem 1rem;
 }
 
 h2{
-  font-family: podkova, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 3rem;
   margin: 1rem;
   text-shadow: 3px 3px 5px #000;
 }
 
 h6{
-  font-family: podkova, sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 /* hero */
 .hero{
@@ -169,7 +169,7 @@ svg .draw{
 .pic,
 .info {
   word-wrap: break-word;
-  font-family: podkova, sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 
 @media screen and (min-width: 992px) {
