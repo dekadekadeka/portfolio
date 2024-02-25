@@ -1,22 +1,11 @@
 body {
-  background-attachment: scroll;
   background-color: rgb(39, 39, 39);
-  background-image: url("./images/portfolio-main.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
   sans-serif;
-  height: 100vh;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-@media screen and (min-width: 992px) {
-  body {
-    background-attachment: fixed;
-  }
 }
 
 h1 {
@@ -52,6 +41,19 @@ p {
   color: #ffffff;
   font-family: "Victor Mono", monospace;
   text-shadow: 2px 2px 5px #000;
+}
+
+.background {
+  background-image: url("./images/portfolio-main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+}
+
+.container {
+  position: absolute;
 }
 
 /* hero */
