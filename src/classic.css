@@ -53,7 +53,7 @@ h3 {
   text-shadow: 2px 2px 10px #000;
 }
 
-p {
+a, p {
   color: #ffffff;
   font-family: "Victor Mono", monospace;
   text-shadow: 2px 2px 5px #000;
@@ -86,6 +86,8 @@ p {
 .navbar {
   background-color: #000;
   height: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .signature {
@@ -123,11 +125,27 @@ svg .draw {
   }
 }
 
-@media screen and (max-width: 992px) {
+.social-navbar {
+  font-size: 64px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+
+.social-navbar .icon {
+  height: 48px;
+  width: 48px;
+  filter: invert(0.5);
+}
+
+@media screen and (max-width: 600px) {
   .navbar {
-    display: flex;
     justify-content: center;
-    /* align-items: center; */
+  }
+
+  .social-navbar {
+    display: none;
   }
 }
 
@@ -256,7 +274,7 @@ svg .draw {
 }
 
 .about-container {
-  width: 80vw;
+  width: 80%;
   display: grid;
   grid-template-columns: 1fr;
   margin: 32px auto;
@@ -280,13 +298,19 @@ svg .draw {
   }
 }
 
-.social {
+@media screen and (min-width: 1800px) {
+  .info {
+    justify-content: start;
+  }
+}
+
+.social-bottom {
   font-size: 64px;
   display: flex;
   justify-content: space-around;
 }
 
-.social .icon {
+.social-bottom .icon {
   height: 48px;
   width: 48px;
   filter: invert(1);
