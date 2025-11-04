@@ -16,7 +16,6 @@ body {
 
 body::before {
   background-image: url("./images/portfolio-main-2025.jpg");
-  background-position: 35% center;
   background-repeat: no-repeat;
   background-size: cover;
   content: "";
@@ -66,7 +65,6 @@ a, p {
   position: fixed; /* anchor to viewport */
   scrollbar-gutter: stable;
   z-index: 1;
-  -webkit-overflow-scrolling: touch;
 }
 
 /* navbar */
